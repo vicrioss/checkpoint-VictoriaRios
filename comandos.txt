@@ -1,0 +1,20 @@
+127 git init checkout-VictoriaRios
+128 cd checkout-VictoriaRios
+129  touch main.js index.js
+  130  git add .
+  131  git commit -m "commit 01 de VictoriaRios"
+  132  git remote add origin https://github.com/vicrioss/checkpoint-VictoriaRios.git
+  133  git push origin main
+  134  git branch feature
+  135  git checkout feature
+  136  mkdir Hardware Software SeguridadInformatica
+  137  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  138  git push feature
+  139  git add .
+  140  git commit -m "commit 02 de VictoriaRios"
+  141  git push origin feature
+  142  git checkout main
+  143  mv main.js resumenHardware.txt
+  145  mv index.js resumenSoftware.txt
+  146  touch comandos.txt
+  147  history 20
